@@ -1,0 +1,136 @@
+font-family: 'Poppins', sans-serif;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+button{
+    background-color: rgb(rgb(224, 46, 46));
+    padding: 4px 10px;
+    cursor: pointer;
+    color: rgb(156, 38, 176)
+    border-radius: 5px;
+    font-weight: 700;
+    width: fit-content;
+    border ::after
+}
+
+button:hover{
+    background-color: rgb(200, 50, 140);
+    color: rgb(rgb(14, 14, 164));
+    border: 1px solid black;
+}
+header{
+    padding: 15px 5px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav.logo{
+    font-weight: 700px;
+    font-size: 100px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.search-field{
+    display: flex;
+    gap: 30px;
+
+}
+input{
+    padding: 4px 10px;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+
+}
+.hero-left-section{
+    width: 60%;
+    padding: 0 8%;
+}
+.hero-left-section h1{
+    
+    font-weight: 800;
+    font-size: 40px;
+    margin: 20;
+}
+.hero-left-section h1 span{
+    color: rgb(rgb(26, 168, 184));
+    font-weight: 900;
+    background-color: bisque;
+    padding: 0 15px;
+}
+.hero-left-section p {
+    font-size: 30px;
+    font-weight: 500;
+   
+}
+.hero-left-section p span{
+    font-size: 25px;
+    font-weight: 700px;
+    color:  rgb(rgb(26, 168, 184));
+
+}
+.hero-right-section{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.hero-right-section-btn{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+footer{
+    font-weight:500;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+foot{
+    align-content: flex-end ;
+
+}
+
